@@ -1,3 +1,45 @@
+<!-- Shopify Bento Card Hover Border Gradient -->
+<script>
+    $(document).ready(function() {
+        $(".ie-bento_card").hover(
+            function() {
+                $(this).find(".ie-bento_ss-wrapper-4-border").addClass("is-hovered");
+            },
+            function() {
+                $(this).find(".ie-bento_ss-wrapper-4-border").removeClass("is-hovered");
+            }
+        );
+    });
+</script>
+
+
+
+
+
+
+
+<!-- Customization Bento Card Color -->
+<script>
+$(document).ready(function(){
+  $('.ie-bento_c-color-button').click(function(){
+    var colorClass = $(this).attr('class').split(' ').filter(function(cls) {
+      return cls.startsWith('is-');
+    }).join(' ');
+    $('.ie-bento_c-chat-bubble').removeClass().addClass('ie-bento_c-chat-bubble ' + colorClass);
+  });
+});
+
+
+$(document).ready(function(){
+  $('.ie-bento_c-color-button').click(function(){
+    $(this).addClass('is-active').siblings('.ie-bento_c-color-button').removeClass('is-active');
+  });
+});
+</script>
+
+
+
+
 <!-- Customization Bento Card TOV -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
