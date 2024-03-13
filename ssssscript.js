@@ -61,11 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
-// GSAP and ScrollTrigger Libraries
-import gsap from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js';
-import ScrollTrigger from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js';
-
 // Marquee Power-Up
 window.addEventListener("DOMContentLoaded", function() {
     // Attribute value checker
