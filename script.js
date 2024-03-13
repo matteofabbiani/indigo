@@ -1,5 +1,5 @@
 <!-- Shopify Bento Card Hover Border Gradient -->
-<script>
+
     $(document).ready(function() {
         $(".ie-bento_card").hover(
             function() {
@@ -10,7 +10,7 @@
             }
         );
     });
-</script>
+
 
 
 
@@ -19,7 +19,7 @@
 
 
 <!-- Customization Bento Card Color -->
-<script>
+
 $(document).ready(function(){
   $('.ie-bento_c-color-button').click(function(){
     var colorClass = $(this).attr('class').split(' ').filter(function(cls) {
@@ -35,13 +35,13 @@ $(document).ready(function(){
     $(this).addClass('is-active').siblings('.ie-bento_c-color-button').removeClass('is-active');
   });
 });
-</script>
+
 
 
 
 
 <!-- Customization Bento Card TOV -->
-<script>
+
 document.addEventListener("DOMContentLoaded", function() {
   // Get all elements with class 'ie-bento_c-tov-button'
   const buttons = document.querySelectorAll(".ie-bento_c-tov-button");
@@ -71,7 +71,7 @@ $(document).ready(function(){
     $(this).addClass('is-active').siblings('.ie-bento_c-tov-button').removeClass('is-active');
   });
 });
-</script>
+
 
 
 
@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 
 <!-- 4 Cards Row Customization card hover -->
-<script>
+
     $(document).ready(function(){
         $('.x4cards_card.is-conv').hover(
             function(){
@@ -90,7 +90,6 @@ $(document).ready(function(){
             }
         );
     });
-</script>
 
 
 
@@ -103,9 +102,8 @@ $(document).ready(function(){
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-<script>
+
+
 // MARQUEE POWER-UP
 window.addEventListener("DOMContentLoaded", (event) => {
   // attribute value checker
@@ -182,4 +180,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
-</script>
+
