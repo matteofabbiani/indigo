@@ -80,7 +80,7 @@ $(".slider-main_component").each(function(index) {
     freeMode: false,
     slideToClickedSlide: false,
     slidesPerView: 1,
-    spaceBetween: "0%",
+    spaceBetween: "-2px",
     rewind: false,
     mousewheel: {
       forceToAxis: true
@@ -93,22 +93,22 @@ $(".slider-main_component").each(function(index) {
       // mobile portrait
       1: {
         slidesPerView: 1,
-        spaceBetween: "0%"
+        spaceBetween: "-2px"
       },
       // mobile landscape
       480: {
         slidesPerView: 1,
-        spaceBetween: "0%"
+        spaceBetween: "-2px"
       },
       // tablet
       768: {
         slidesPerView: 1,
-        spaceBetween: "0%"
+        spaceBetween: "-2px"
       },
       // desktop
       992: {
         slidesPerView: 1,
-        spaceBetween: "0%"
+        spaceBetween: "-2px"
       }
     },
     pagination: {
