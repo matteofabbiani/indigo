@@ -108,7 +108,7 @@ $(".slider-main_component").each(function(index) {
       // desktop
       992: {
         slidesPerView: 1,
-        spaceBetween: -2px
+        spaceBetween: '-2px'
       }
     },
     pagination: {
